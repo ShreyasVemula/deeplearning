@@ -7,6 +7,7 @@ from tensorflow.keras.utils import to_categorical
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
 # Normalize pixel values
+
 x_train = x_train / 255.0
 x_test = x_test / 255.0
 
